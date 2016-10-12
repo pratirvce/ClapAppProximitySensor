@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dblue"
+    android:padding="20dp"
+    tools:context="com.example.prati.clapappproximitysensor.ClapAppActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title"
+        android:textSize="@dimen/font_large"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/close_btn"
+        android:onClick="closeApp"
+        android:layout_gravity="center"
+        android:layout_marginTop="150dp"
+        android:padding="18dp"
+        android:background="@color/lyellow"
+        android:textColor="@color/black" />
+</LinearLayout>
